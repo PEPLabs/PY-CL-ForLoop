@@ -1,0 +1,25 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_factorial_of_zero",
+          "label": "Verify factorial of zero returns 1",
+          "description": "Checks that calling factorial(0) returns 1, as defined by mathematical convention."
+        },
+        {
+          "methodName": "test_factorial_of_positive_number",
+          "label": "Verify factorial works for positive integers",
+          "description": "Ensures factorial returns correct values for inputs 5, 4, and 3—specifically 120, 24, and 6."
+        },
+        {
+          "methodName": "test_factorial_of_negative_number",
+          "label": "Verify factorial raises error for negative input",
+          "description": "Checks that calling factorial with a negative number raises a ValueError."
+        }
+      ]
+    }
+  ]
+}
